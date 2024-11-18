@@ -171,10 +171,22 @@ $currentUrl = 0
 foreach ($url in $urlList) {
     $currentUrl++
     try {
+        # 生成唯一的文件名
+        $urlHash = [System.Security.Cryptography.SHA256]::Create().ComputeHash(
+            [System.Text.Encoding]::UTF8.GetBytes($url)
+        )
+        $urlHashString = [System.BitConverter]::ToString($urlHash).Replace("-", "").Substring(0, 8)
+        
         $fileName = [System.IO.Path]::GetFileName($url)
         if ([string]::IsNullOrEmpty($fileName)) {
-            $fileName = [System.Guid]::NewGuid().ToString() + ".txt"
+            $fileName = "rule_$urlHashString.txt"
+        } else {
+            # 在文件名和扩展名之间插入哈希值
+            $fileNameWithoutExt = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
+            $fileExt = [System.IO.Path]::GetExtension($fileName)
+            $fileName = "${fileNameWithoutExt}_${urlHashString}${fileExt}"
         }
+        
         $filePath = Join-Path $tempDir $fileName
         
         Write-Host "[$currentUrl/$totalUrls] 正在下载: $url" -ForegroundColor Cyan
