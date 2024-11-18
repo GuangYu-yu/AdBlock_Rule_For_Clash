@@ -320,7 +320,40 @@ $ruleCount = $finalRules.Count
 # 获取当前时间并转换为东八区时间
 $generationTime = (Get-Date).ToUniversalTime().AddHours(8).ToString("yyyy-MM-dd HH:mm:ss")
 
-# 创建文本格式的字符串
+# 在处理规则之前，先下载参考文件并创建一个规则集合
+Write-Host "`n=== 下载参考文件 ===" -ForegroundColor Green
+$referenceUrls = @(
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Advertising/Advertising.list",
+    "https://raw.githubusercontent.com/GuangYu-yu/ACL4SSR/refs/heads/main/REJECT.list",
+    "https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/sr_ad_only.conf"
+)
+
+$referenceRules = [System.Collections.Generic.HashSet[string]]::new()
+
+foreach ($url in $referenceUrls) {
+    try {
+        Write-Host "正在下载参考文件: $url" -ForegroundColor Cyan
+        $content = $webClient.DownloadString($url)
+        $lines = $content -split "`n"
+        foreach ($line in $lines) {
+            $referenceRules.Add($line.Trim()) | Out-Null
+        }
+    }
+    catch {
+        Write-Host "下载参考文件失败: $url" -ForegroundColor Red
+        Write-Host $_.Exception.Message
+    }
+}
+
+Write-Host "参考规则数量: $($referenceRules.Count)" -ForegroundColor Green
+
+# 在写入文件前过滤规则
+$filteredRules = $formattedRules | Where-Object {
+    $rule = $_
+    -not ($referenceRules.Contains($rule))
+}
+
+# 使用过滤后的规则创建输出内容
 $textContent = @"
 # Title: AdBlock_Rule_For_Clash
 # Description: 适用于Clash的域名拦截规则集，每20分钟更新一次，确保即时同步上游减少误杀
@@ -329,9 +362,9 @@ $textContent = @"
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
 # Generated on: $generationTime
 # Generated AdBlock rules
-# Total entries: $ruleCount
+# Total entries: $($filteredRules.Count)
 
-$($formattedRules -join "`n")
+$($filteredRules -join "`n")
 "@
 
 # 定义输出文件路径
@@ -339,5 +372,5 @@ $outputPath = "$PSScriptRoot/adblock_reject.list"
 $textContent | Out-File -FilePath $outputPath -Encoding utf8
 
 # 输出生成的有效规则总数
-Write-Host "生成的有效规则总数: $ruleCount"
-Add-Content -Path $logFilePath -Value "Total entries: $ruleCount"
+Write-Host "生成的有效规则总数: $($filteredRules.Count)"
+Add-Content -Path $logFilePath -Value "Total entries: $($filteredRules.Count)"
