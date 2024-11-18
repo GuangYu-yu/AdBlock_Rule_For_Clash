@@ -127,7 +127,12 @@ $urlList = @(
 "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt",
 "https://raw.githubusercontent.com/runningcheese/RunningCheese-Firefox/refs/heads/master/Restore/Adblock_Watermark.txt",
 "https://raw.githubusercontent.com/runningcheese/RunningCheese-Firefox/refs/heads/master/Restore/Adblock_Popup.txt",
-"https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"
+"https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
+"https://filters.adtidy.org/extension/chromium/filters/15.txt",
+"https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt",
+"https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+"https://raw.githubusercontent.com/YanFung/Ads/master/Mobile",
+"https://raw.githubusercontent.com/uniartisan/adblock_list/refs/heads/master/adblock_plus.txt"
 )
 
 # 日志文件路径
