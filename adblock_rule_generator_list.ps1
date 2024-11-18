@@ -126,7 +126,8 @@ $urlList = @(
 "https://big.oisd.nl",
 "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt",
 "https://raw.githubusercontent.com/runningcheese/RunningCheese-Firefox/refs/heads/master/Restore/Adblock_Watermark.txt",
-"https://raw.githubusercontent.com/runningcheese/RunningCheese-Firefox/refs/heads/master/Restore/Adblock_Popup.txt"
+"https://raw.githubusercontent.com/runningcheese/RunningCheese-Firefox/refs/heads/master/Restore/Adblock_Popup.txt",
+"https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt"
 )
 
 # 日志文件路径
