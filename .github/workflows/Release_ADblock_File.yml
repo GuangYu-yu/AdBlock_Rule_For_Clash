@@ -43,7 +43,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -f adblock_reject.yaml adblock_reject.txt adblock_reject.mrs timestamp.txt
+          git add -f adblock_reject.list timestamp.txt
           git commit -m "Forced update of adblock files and timestamp" || echo "No changes to commit"
           git push origin main --force || echo "Push failed, but continuing"
         env: 
@@ -65,35 +65,13 @@ jobs:
            body: "Periodic release of adblock files." # 发布说明
            draft: false # 创建正式发布，而非草稿
 
-      # 步骤7：上传 adblock_reject.yaml
-      - name: Upload adblock_reject.yaml
+      # 步骤7：上传 adblock_reject.list
+      - name: Upload adblock_reject.list
         uses: actions/upload-release-asset@v1
         env: 
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./adblock_reject.yaml
-          asset_name: adblock_reject.yaml
-          asset_content_type: application/x-yaml
-
-      # 步骤8：上传 adblock_reject.txt
-      - name: Upload adblock_reject.txt
-        uses: actions/upload-release-asset@v1
-        env: 
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./adblock_reject.txt
-          asset_name: adblock_reject.txt
-          asset_content_type: text/plain
-
-      # 步骤9：上传 adblock_reject.mrs
-      - name: Upload adblock_reject.mrs
-        uses: actions/upload-release-asset@v1
-        env: 
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./adblock_reject.mrs
-          asset_name: adblock_reject.mrs
+          asset_path: ./adblock_reject.list
+          asset_name: adblock_reject.list
           asset_content_type: text/plain
