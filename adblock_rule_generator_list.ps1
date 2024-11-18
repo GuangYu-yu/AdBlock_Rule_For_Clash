@@ -162,9 +162,14 @@ if (-not (Test-Path $tempDir)) {
 }
 
 # 第一步：下载所有规则文件
+Write-Host "`n=== 第一步：下载所有规则文件 ===" -ForegroundColor Green
 Write-Host "开始下载规则文件..."
 $downloadedFiles = @()
+$totalUrls = $urlList.Count
+$currentUrl = 0
+
 foreach ($url in $urlList) {
+    $currentUrl++
     try {
         $fileName = [System.IO.Path]::GetFileName($url)
         if ([string]::IsNullOrEmpty($fileName)) {
@@ -172,25 +177,32 @@ foreach ($url in $urlList) {
         }
         $filePath = Join-Path $tempDir $fileName
         
-        Write-Host "正在下载: $url"
+        Write-Host "[$currentUrl/$totalUrls] 正在下载: $url" -ForegroundColor Cyan
         Add-Content -Path $logFilePath -Value "正在下载: $url"
         
         $webClient.DownloadFile($url, $filePath)
         $downloadedFiles += $filePath
         
-        Write-Host "下载完成: $fileName"
+        Write-Host "下载完成: $fileName" -ForegroundColor Green
     }
     catch {
-        Write-Host "下载 $url 时出错: $_"
+        Write-Host "下载 $url 时出错: $_" -ForegroundColor Red
         Add-Content -Path $logFilePath -Value "下载 $url 时出错: $_"
     }
 }
 
+Write-Host "`n下载完成，共下载 $($downloadedFiles.Count) 个文件" -ForegroundColor Green
+
 # 第二步：处理下载的文件
-Write-Host "`n开始处理规则文件..."
+Write-Host "`n=== 第二步：处理规则文件 ===" -ForegroundColor Green
+$totalFiles = $downloadedFiles.Count
+$currentFile = 0
+
 foreach ($filePath in $downloadedFiles) {
-    Write-Host "正在处理文件: $filePath"
-    Add-Content -Path $logFilePath -Value "正在处理文件: $filePath"
+    $currentFile++
+    $fileName = Split-Path $filePath -Leaf
+    Write-Host "[$currentFile/$totalFiles] 正在处理文件: $fileName" -ForegroundColor Cyan
+    Add-Content -Path $logFilePath -Value "正在处理文件: $fileName"
     
     try {
         $content = Get-Content -Path $filePath -Raw
@@ -237,8 +249,8 @@ foreach ($filePath in $downloadedFiles) {
         }
     }
     catch {
-        Write-Host "处理文件 $filePath 时出错: $_"
-        Add-Content -Path $logFilePath -Value "处理文件 $filePath 时出错: $_"
+        Write-Host "处理文件 $fileName 时出错: $_" -ForegroundColor Red
+        Add-Content -Path $logFilePath -Value "处理文件 $fileName 时出错: $_"
     }
 }
 
