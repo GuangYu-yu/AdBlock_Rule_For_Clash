@@ -112,7 +112,21 @@ $urlList = @(
 "https://raw.githubusercontent.com/AdguardTeam/ADguardFilters/master/SpywareFilter/sections/tracking_servers.txt",
 "https://raw.githubusercontent.com/AdguardTeam/ADguardFilters/master/SpywareFilter/sections/tracking_servers_firstparty.txt",
 "https://raw.githubusercontent.com/AdguardTeam/ADguardFilters/master/TrackParamFilter/sections/allowlist.txt",
-"https://raw.githubusercontent.com/AdguardTeam/ADguardFilters/master/TrackParamFilter/sections/general_url.txt"
+"https://raw.githubusercontent.com/AdguardTeam/ADguardFilters/master/TrackParamFilter/sections/general_url.txt",
+"https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/adblock.txt",
+"https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt",
+"https://raw.githubusercontent.com/damengzhu/abpmerge/main/abpmerge.txt",
+"https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt",
+"https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt",
+"https://neodev.team/adblocker",
+"https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+"https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard",
+"https://adaway.org/hosts.txt",
+"https://hblock.molinero.dev/hosts",
+"https://big.oisd.nl",
+"https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt",
+"https://raw.githubusercontent.com/runningcheese/RunningCheese-Firefox/refs/heads/master/Restore/Adblock_Watermark.txt",
+"https://raw.githubusercontent.com/runningcheese/RunningCheese-Firefox/refs/heads/master/Restore/Adblock_Popup.txt"
 )
 
 # 日志文件路径
@@ -160,35 +174,26 @@ foreach ($url in $urlList) {
                 }
             }
             else {
-                # 匹配 Adblock/Easylist 格式的规则
-                if ($line -match '^\|\|([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})\^$') {
+                # 修改正则匹配部分
+                # 匹配 ||domain.com^ 格式的规则（作为DOMAIN-SUFFIX处理）
+                if ($line -match '^\|\|([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})\^') {
                     $domain = $Matches[1]
-                    $uniqueRules.Add($domain) | Out-Null
+                    $uniqueRules.Add("*.$domain") | Out-Null  # 添加*. 前缀表示这是一个DOMAIN-SUFFIX规则
                 }
-                # 匹配 Hosts 文件格式的 IPv4 规则
+                # 匹配 Hosts 文件格式（作为DOMAIN处理）
                 elseif ($line -match '^(0\.0\.0\.0|127\.0\.0\.1)\s+([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$') {
                     $domain = $Matches[2]
                     $uniqueRules.Add($domain) | Out-Null
                 }
-                # 匹配 Hosts 文件格式的 IPv6 规则（以 ::1 或 :: 开头）
+                # 匹配 IPv6 格式（作为DOMAIN处理）
                 elseif ($line -match '^::(1)?\s+([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$') {
                     $domain = $Matches[2]
                     $uniqueRules.Add($domain) | Out-Null
                 }
-                # 匹配 Dnsmasq address=/域名/格式的规则
-                elseif ($line -match '^address=/([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/$') {
-                    $domain = $Matches[1]
-                    $uniqueRules.Add($domain) | Out-Null
-                }
-                # 匹配 Dnsmasq server=/域名/的规则
-                elseif ($line -match '^server=/([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/$') {
-                    $domain = $Matches[1]
-                    $uniqueRules.Add($domain) | Out-Null
-                }
-                # 匹配通配符规则
-                elseif ($line -match '^\|\|([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})\^$') {
-                    $domain = $Matches[1]
-                    $uniqueRules.Add($domain) | Out-Null
+                # 匹配 Dnsmasq 格式（作为DOMAIN-SUFFIX处理）
+                elseif ($line -match '^(address|server)=/([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/$') {
+                    $domain = $Matches[2]
+                    $uniqueRules.Add("*.$domain") | Out-Null
                 }
                 # 处理纯域名行
                 elseif ($line -match '^([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$') {
@@ -223,8 +228,30 @@ foreach ($domain in $excludedDomains) {
 # 排除所有白名单规则中的域名
 $finalRules = $validRules | Where-Object { -not $validExcludedDomains.Contains($_) }
 
-# 对规则进行排序并格式化
-$formattedRules = $finalRules | Sort-Object | ForEach-Object {"- '$_'"}
+# 修改格式化规则的部分
+$domainRules = [System.Collections.Generic.List[string]]::new()
+$domainSuffixRules = [System.Collections.Generic.List[string]]::new()
+
+foreach ($rule in $finalRules) {
+    if ($rule.StartsWith('*.')) {
+        # 对于带有*. 前缀的规则，移除前缀并作为DOMAIN-SUFFIX
+        $cleanDomain = $rule.Substring(2)
+        $domainSuffixRules.Add("DOMAIN-SUFFIX,$cleanDomain")
+    }
+    else {
+        # 没有*. 前缀的规则作为DOMAIN
+        $domainRules.Add("DOMAIN,$rule")
+    }
+}
+
+# 分别对两种规则进行排序
+$domainRules = $domainRules | Sort-Object
+$domainSuffixRules = $domainSuffixRules | Sort-Object
+
+# 合并排序后的规则，直接输出规则内容，不添加额外格式
+$formattedRules = @()
+$formattedRules += $domainRules
+$formattedRules += $domainSuffixRules
 
 # 统计生成的规则条目数量
 $ruleCount = $finalRules.Count
@@ -243,7 +270,6 @@ $textContent = @"
 # Generated AdBlock rules
 # Total entries: $ruleCount
 
-payload:
 $($formattedRules -join "`n")
 "@
 
