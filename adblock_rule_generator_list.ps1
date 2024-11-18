@@ -155,14 +155,47 @@ function Is-ValidDNSDomain($domain) {
     return $true
 }
 
-foreach ($url in $urlList) {
-    Write-Host "正在处理: $url"
-    Add-Content -Path $logFilePath -Value "正在处理: $url"
-    try {
-        # 读取并拆分内容为行
-        $content = $webClient.DownloadString($url)
-        $lines = $content -split "`n"
+# 创建临时文件夹来存储下载的文件
+$tempDir = Join-Path $PSScriptRoot "temp_rules"
+if (-not (Test-Path $tempDir)) {
+    New-Item -ItemType Directory -Path $tempDir | Out-Null
+}
 
+# 第一步：下载所有规则文件
+Write-Host "开始下载规则文件..."
+$downloadedFiles = @()
+foreach ($url in $urlList) {
+    try {
+        $fileName = [System.IO.Path]::GetFileName($url)
+        if ([string]::IsNullOrEmpty($fileName)) {
+            $fileName = [System.Guid]::NewGuid().ToString() + ".txt"
+        }
+        $filePath = Join-Path $tempDir $fileName
+        
+        Write-Host "正在下载: $url"
+        Add-Content -Path $logFilePath -Value "正在下载: $url"
+        
+        $webClient.DownloadFile($url, $filePath)
+        $downloadedFiles += $filePath
+        
+        Write-Host "下载完成: $fileName"
+    }
+    catch {
+        Write-Host "下载 $url 时出错: $_"
+        Add-Content -Path $logFilePath -Value "下载 $url 时出错: $_"
+    }
+}
+
+# 第二步：处理下载的文件
+Write-Host "`n开始处理规则文件..."
+foreach ($filePath in $downloadedFiles) {
+    Write-Host "正在处理文件: $filePath"
+    Add-Content -Path $logFilePath -Value "正在处理文件: $filePath"
+    
+    try {
+        $content = Get-Content -Path $filePath -Raw
+        $lines = $content -split "`n"
+        
         foreach ($line in $lines) {
             # 直接处理以 @@ 开头的规则，提取域名并加入白名单
             if ($line.StartsWith('@@')) {
@@ -204,10 +237,14 @@ foreach ($url in $urlList) {
         }
     }
     catch {
-        Write-Host "处理 $url 时出错: $_"
-        Add-Content -Path $logFilePath -Value "处理 $url 时出错: $_"
+        Write-Host "处理文件 $filePath 时出错: $_"
+        Add-Content -Path $logFilePath -Value "处理文件 $filePath 时出错: $_"
     }
 }
+
+# 清理临时文件
+Write-Host "`n清理临时文件..."
+Remove-Item -Path $tempDir -Recurse -Force
 
 # 在写入文件之前进行DNS规范验证
 $validRules = [System.Collections.Generic.HashSet[string]]::new()
