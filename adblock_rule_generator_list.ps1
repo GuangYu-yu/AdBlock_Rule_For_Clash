@@ -152,7 +152,7 @@ $urlList = @(
 "https://raw.githubusercontent.com/cjx82630/cjxlist/refs/heads/master/cjx-annoyance.txt",
 "https://raw.githubusercontent.com/cjx82630/cjxlist/refs/heads/master/cjx-ublock.txt",
 "https://raw.githubusercontent.com/neodevpro/neodevhost/master/adblocker",
-"https://raw.githubusercontent.com/lingeringsound/10007/main/adb.txt",
+"https://raw.githubusercontent.com/lingeringsound/10007/main/adb.txt"
 )
 
 # 日志文件路径
