@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-05 09:24:26
+# Generated on: 2026-07-05 13:48:30
 # Generated AdBlock rules
-# Total entries: 462617
+# Total entries: 462618
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -9749,6 +9749,7 @@ DOMAIN,a.atlrparis.com
 DOMAIN,a.atrem.site
 DOMAIN,a.atrium.si
 DOMAIN,a.audi.fr
+DOMAIN,a.audifrance.fr
 DOMAIN,a.autoexpress.co.uk
 DOMAIN,a.ava.com.ua
 DOMAIN,a.avalhukof.com
