@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-08 06:35:18
+# Generated on: 2026-07-08 07:36:54
 # Generated AdBlock rules
-# Total entries: 463147
+# Total entries: 463101
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -18094,7 +18094,6 @@ DOMAIN,ad.adtegrity.net
 DOMAIN,ad.adtoma.com
 DOMAIN,ad.aduserver.com
 DOMAIN,ad.advertstream.com
-DOMAIN,ad.adview.pl
 DOMAIN,ad.adwiser.kr
 DOMAIN,ad.adwo.com
 DOMAIN,ad.adxcore.com
@@ -18290,7 +18289,6 @@ DOMAIN,ad.f1cd.ru
 DOMAIN,ad.fantiki.net
 DOMAIN,ad.feedbag.co.kr
 DOMAIN,ad.fi.doubleclick.net
-DOMAIN,ad.filmweb.pl
 DOMAIN,ad.firestorage.jp
 DOMAIN,ad.firstadsolution.com
 DOMAIN,ad.flipboard.com
@@ -19524,7 +19522,6 @@ DOMAIN,adcannyads.com
 DOMAIN,adcannyxml.com
 DOMAIN,adcanopus.offerstrack.net
 DOMAIN,adcarem.co
-DOMAIN,adcash.com
 DOMAIN,adcast.deviantart.com
 DOMAIN,adcastmarket.com
 DOMAIN,adcbxmyjvlzrk.online
@@ -20084,7 +20081,6 @@ DOMAIN,adhigh.net
 DOMAIN,adhitzads.com
 DOMAIN,adhnu.wanderbeauty.com
 DOMAIN,adhooah.com
-DOMAIN,adhood.com
 DOMAIN,adhost.in
 DOMAIN,adhost.se
 DOMAIN,adhouse.cubecdn.net
@@ -20316,7 +20312,6 @@ DOMAIN,adjusttangled.hyperdiscordia.com
 DOMAIN,adjux.com
 DOMAIN,adk-static.affinity.net
 DOMAIN,adk.mybestclick.net
-DOMAIN,adk2.co
 DOMAIN,adk2.com
 DOMAIN,adk2x.com
 DOMAIN,adkaora.space
@@ -21419,7 +21414,6 @@ DOMAIN,ads.acpc.cat
 DOMAIN,ads.acrosspf.com
 DOMAIN,ads.activepower.net
 DOMAIN,ads.activestate.com
-DOMAIN,ads.ad-center.com
 DOMAIN,ads.ad2iction.com
 DOMAIN,ads.ad4game.com
 DOMAIN,ads.ad4max.com
@@ -22535,7 +22529,6 @@ DOMAIN,ads.static.blip.tv
 DOMAIN,ads.static.madserving.com
 DOMAIN,ads.stephensmedia.com
 DOMAIN,ads.stepstone.no
-DOMAIN,ads.stickyadstv.com
 DOMAIN,ads.stileproject.com
 DOMAIN,ads.stoiximan.gr
 DOMAIN,ads.studienet.dk
@@ -23261,7 +23254,6 @@ DOMAIN,adsbyt1.titus.one
 DOMAIN,adsc.wasu.tv
 DOMAIN,adscads.de
 DOMAIN,adscale-emea.adnxs.com
-DOMAIN,adscale.de
 DOMAIN,adscaling.xyz
 DOMAIN,adscampaign.net
 DOMAIN,adscan.yelabapp.com
@@ -23323,7 +23315,6 @@ DOMAIN,adsense.com
 DOMAIN,adsense.google.cn
 DOMAIN,adsense.html5.qq.com
 DOMAIN,adsensecamp.com
-DOMAIN,adsensecustomsearchads.com
 DOMAIN,adsensedetective.com
 DOMAIN,adsenseformobileapps.com
 DOMAIN,adsenseguard.com
@@ -23422,7 +23413,6 @@ DOMAIN,adserver.adotmob.com
 DOMAIN,adserver.adreactor.com
 DOMAIN,adserver.adremedy.com
 DOMAIN,adserver.ads360.com
-DOMAIN,adserver.adtech.de
 DOMAIN,adserver.adtech.fr
 DOMAIN,adserver.adtech.us
 DOMAIN,adserver.adtechjp.com
@@ -65076,7 +65066,6 @@ DOMAIN,bduhaq.ateliergs.fi
 DOMAIN,bduhb.audienhearing.com
 DOMAIN,bdunion1.suxiazai.com
 DOMAIN,bduwesnxbmmjq.site
-DOMAIN,bdv.bidvertiser.com
 DOMAIN,bdvenlinea-banvenez-beram.pages.dev
 DOMAIN,bdvenlineaconfirmate.pages.dev
 DOMAIN,bdvmetricas.banvenez.com.ve
@@ -84186,7 +84175,6 @@ DOMAIN,cdn.pinktriangle.ca
 DOMAIN,cdn.playstream.media
 DOMAIN,cdn.plrst.com
 DOMAIN,cdn.polmontventures.com
-DOMAIN,cdn.popcash.net
 DOMAIN,cdn.posawaj.com
 DOMAIN,cdn.powerinboxedge.com
 DOMAIN,cdn.pranmcpkx.com
@@ -84473,7 +84461,6 @@ DOMAIN,cdna.clicktale.net
 DOMAIN,cdna.runadtag.com
 DOMAIN,cdna.tremormedia.com
 DOMAIN,cdnads.cam4.com
-DOMAIN,cdnads.com
 DOMAIN,cdnads.geeksforgeeks.org
 DOMAIN,cdnadspecs-onead.cdn.hinet.net
 DOMAIN,cdnaimg-ra.media.net
@@ -86929,7 +86916,6 @@ DOMAIN,checkinsforwads3.com
 DOMAIN,checkisreal.com
 DOMAIN,checkitoutxx.com
 DOMAIN,checkkey.shop
-DOMAIN,checkm8.com
 DOMAIN,checkmacarte.fr
 DOMAIN,checkminiguststay.com
 DOMAIN,checkmoncoupon.fr
@@ -92646,7 +92632,6 @@ DOMAIN,cnzgraidqkkhw.site
 DOMAIN,cnzh-google-apps.hl.cn
 DOMAIN,cnzz.172internet.com
 DOMAIN,cnzz.hhttm.top
-DOMAIN,cnzz.mmstat.com
 DOMAIN,cnzz.net
 DOMAIN,cnzz.trafficmanager.net
 DOMAIN,cnzz.yifenghuyu.com
@@ -96772,7 +96757,6 @@ DOMAIN,contentforce.prgrmmr.com
 DOMAIN,contentieuxcreditservices.fr
 DOMAIN,contentinsights.com
 DOMAIN,contentiq.com
-DOMAIN,contentlockingnetworks.com
 DOMAIN,contentmarketing.scheierassociates.com
 DOMAIN,contentmayinterest.com
 DOMAIN,contentmetrics01.webtrekk.net
@@ -99002,10 +98986,8 @@ DOMAIN,cpafornoob.com
 DOMAIN,cpagettistream6.com
 DOMAIN,cpagoods.ru
 DOMAIN,cpagovpl.ph
-DOMAIN,cpagrip.com
 DOMAIN,cpaktrucking.com
 DOMAIN,cpalabtracking.com
-DOMAIN,cpalead.com
 DOMAIN,cpam-2026.fr
 DOMAIN,cpam-ameli-renouvellement.fr
 DOMAIN,cpam-ameli-vitale.fr
@@ -99225,7 +99207,6 @@ DOMAIN,cpm.vidoomy.com
 DOMAIN,cpm.voisetech.com
 DOMAIN,cpm.worldoftanks.com
 DOMAIN,cpm.wxadserve.xyz
-DOMAIN,cpm1.affiz.net
 DOMAIN,cpm20.com
 DOMAIN,cpmadvisors.com
 DOMAIN,cpmclktrk.online
@@ -139911,7 +139892,6 @@ DOMAIN,ff54f500-ee37-4e3d-99d6-de2da445d58c-00-16i9q5k04x3i1.janeway.replit.dev
 DOMAIN,ff5dyq.lat
 DOMAIN,ff7ndr.webwave.dev
 DOMAIN,ff97d1d2da.20590def33.com
-DOMAIN,ffa-hosting.com
 DOMAIN,ffa8c93b-fbf4-4653-88d1-8791090fff4d-00-1w432lp2a6mi0.janeway.replit.dev
 DOMAIN,ffacebookk.fr
 DOMAIN,ffaddpar.shop
@@ -155587,7 +155567,6 @@ DOMAIN,gm848i.webwave.dev
 DOMAIN,gmaaf.fr
 DOMAIN,gmaail.fr
 DOMAIN,gmad1.xyz
-DOMAIN,gmads.net
 DOMAIN,gmai1.fr
 DOMAIN,gmaigshirczdk.site
 DOMAIN,gmaiil.fr
@@ -156297,7 +156276,6 @@ DOMAIN,go.curvature.com
 DOMAIN,go.curvgroup.com
 DOMAIN,go.customerlobby.com
 DOMAIN,go.cyberdefense.cisco.com
-DOMAIN,go.cz.bbelements.com
 DOMAIN,go.d8a.org
 DOMAIN,go.dailytechsmarts.com
 DOMAIN,go.dallasstars.com
@@ -157010,9 +156988,7 @@ DOMAIN,go.packback.co
 DOMAIN,go.pacsci.org
 DOMAIN,go.pacvan.com
 DOMAIN,go.padcaster.com
-DOMAIN,go.padsdel.com
 DOMAIN,go.padsdelivery.com
-DOMAIN,go.padstm.com
 DOMAIN,go.pageuppeople.com
 DOMAIN,go.pajamaprogram.org
 DOMAIN,go.palpita.net
@@ -158429,7 +158405,6 @@ DOMAIN,gone.pronhub.fun
 DOMAIN,goneleft.com
 DOMAIN,gonentabela.com
 DOMAIN,gonetfusion.net
-DOMAIN,goneviral.com
 DOMAIN,gonews1.net
 DOMAIN,gongchangba.com
 DOMAIN,gonintendo.us.intellitxt.com
@@ -191964,7 +191939,6 @@ DOMAIN,jsbpc.com
 DOMAIN,jsbsp.com
 DOMAIN,jsc.dt07.net
 DOMAIN,jsc.marketgid.com
-DOMAIN,jsc.mgid.com
 DOMAIN,jsc.native.azerion.com
 DOMAIN,jsc.tovarro.com
 DOMAIN,jscal.club
@@ -215415,7 +215389,6 @@ DOMAIN,loxantrums.cyou
 DOMAIN,loxitdat.com
 DOMAIN,loxodo-analytics.ext.nile.works
 DOMAIN,loxodo-ct.ext.nile.works
-DOMAIN,loxtk.com
 DOMAIN,loy356.site
 DOMAIN,loyal-event.com
 DOMAIN,loyal-mother.pro
@@ -217875,7 +217848,6 @@ DOMAIN,m.tribalfusion.com
 DOMAIN,m.trustwalletjvk.com
 DOMAIN,m.univision.com
 DOMAIN,m.v-binance.com.cn
-DOMAIN,m.v.fwmrm.net
 DOMAIN,m.varagesale.com
 DOMAIN,m.vietnammedical.org
 DOMAIN,m.vistaresourcegroup.com
@@ -229332,7 +229304,6 @@ DOMAIN,mgbubfnjdpkye.space
 DOMAIN,mgbygrfsvd1.com
 DOMAIN,mgbykdrvmmvwta.com
 DOMAIN,mgcash.com
-DOMAIN,mgcashgate.com
 DOMAIN,mgcbncbblbrlh.site
 DOMAIN,mgcheats.com
 DOMAIN,mgcld.xyz
@@ -235412,7 +235383,6 @@ DOMAIN,ms.applovin.com.edgekey.net
 DOMAIN,ms.applvn.com
 DOMAIN,ms.cmcm.com
 DOMAIN,ms.cnbanbao.com
-DOMAIN,ms.dzen.ru
 DOMAIN,ms.informaengage.com
 DOMAIN,ms.kuugo.cc
 DOMAIN,ms.mavero.store
@@ -262137,7 +262107,6 @@ DOMAIN,optimize.urekamedia.com
 DOMAIN,optimized-by-1.rubiconproject.com
 DOMAIN,optimized-by-2.rubiconproject.com
 DOMAIN,optimized-by.4wnetwork.com
-DOMAIN,optimized-by.rubiconproject.com
 DOMAIN,optimized-by.vitalads.net
 DOMAIN,optimized.by.vitalads.net
 DOMAIN,optimizedby.brealtime.com
@@ -266072,7 +266041,6 @@ DOMAIN,padromimeo.cyou
 DOMAIN,padsabs.com
 DOMAIN,padsans.com
 DOMAIN,padsatz.com
-DOMAIN,padsdel.com
 DOMAIN,padsims.com
 DOMAIN,padsimz.com
 DOMAIN,padskis.com
@@ -280549,7 +280517,6 @@ DOMAIN,populr.me
 DOMAIN,popunder.adsrevenue.net
 DOMAIN,popunder.bid
 DOMAIN,popunder.com
-DOMAIN,popunder.fpctraffic.com
 DOMAIN,popunder.ir
 DOMAIN,popunder.loading-delivery1.com
 DOMAIN,popunder.net
@@ -288136,7 +288103,6 @@ DOMAIN,pugwifhat.xyz
 DOMAIN,pugxfrjfmddi.com
 DOMAIN,pugzutzi.com
 DOMAIN,puhlu.com
-DOMAIN,puhtml.com
 DOMAIN,puhyjyf.com
 DOMAIN,puibjylihoygx.online
 DOMAIN,puinnjsexnlbo.space
@@ -300118,7 +300084,6 @@ DOMAIN,rhrrf.cn
 DOMAIN,rhsigorta.com
 DOMAIN,rhsmp.allgooddaze.com
 DOMAIN,rhstsudlojlai.space
-DOMAIN,rhtag.com
 DOMAIN,rhtnu.honeybirdette.com
 DOMAIN,rhtr.rorvikshus.com
 DOMAIN,rhubarbambassadorweep.com
@@ -317848,7 +317813,6 @@ DOMAIN,server.zuqo.shop
 DOMAIN,server.zydropshipping.com
 DOMAIN,server01.maquininhayelly.com
 DOMAIN,server03new.dot.at
-DOMAIN,server1.affiz.net
 DOMAIN,server1.beaconpush.com
 DOMAIN,server1.funnaly.xyz
 DOMAIN,server1.magicbookseries.xyz
@@ -326069,7 +326033,6 @@ DOMAIN,skidrow-cheat.com
 DOMAIN,skidrow-cracks.com
 DOMAIN,skidrow-games-crack.com
 DOMAIN,skidrowcodexz.com
-DOMAIN,skidrowcrack.com
 DOMAIN,skidrowgames.us
 DOMAIN,skidrowhacking.com
 DOMAIN,skidrowreleases.com
@@ -326154,7 +326117,6 @@ DOMAIN,skincarequiz.website
 DOMAIN,skincarezoneh.info
 DOMAIN,skincenterdirect.com
 DOMAIN,skincheckwa-app.hotdoc.com.au
-DOMAIN,skincodesgiveaway.com
 DOMAIN,skinected.com
 DOMAIN,skinfloat.com
 DOMAIN,skinflowln.info
@@ -339268,7 +339230,6 @@ DOMAIN,sponsor.imacdn.com
 DOMAIN,sponsor.opb.org
 DOMAIN,sponsor.styleblueprint.com
 DOMAIN,sponsor1.com
-DOMAIN,sponsorads.de
 DOMAIN,sponsoraszukam.pl
 DOMAIN,sponsorcounter.de
 DOMAIN,sponsored.com
@@ -360641,7 +360602,6 @@ DOMAIN,syndication.elinkgo2.com
 DOMAIN,syndication.epcmh.com
 DOMAIN,syndication.epcmk.com
 DOMAIN,syndication.exdynsrv.com
-DOMAIN,syndication.exoclick.com
 DOMAIN,syndication.gcdnanalytics.com
 DOMAIN,syndication.intel.com
 DOMAIN,syndication.jsadapi.com
@@ -370705,7 +370665,6 @@ DOMAIN,tictoc.live
 DOMAIN,tictocautoparts.com
 DOMAIN,ticvui.alexandani.com
 DOMAIN,tidalflowbase.com
-DOMAIN,tidaltv.com
 DOMAIN,tidalvertexworks.com
 DOMAIN,tidbitscom.skimlinks.com
 DOMAIN,tiddly9wink.info
@@ -405771,7 +405730,6 @@ DOMAIN,websfluxer.qpon
 DOMAIN,websfr.fr
 DOMAIN,websg-app.fr
 DOMAIN,websgsadvert.sanguosha.com
-DOMAIN,webshark.pl
 DOMAIN,websharks.ru
 DOMAIN,webshopping.cc
 DOMAIN,websideserver.groupe-e.ch
@@ -440869,7 +440827,6 @@ DOMAIN,www.smart9432823813734.shop
 DOMAIN,www.smart94381239.shop
 DOMAIN,www.smart9438237.xyz
 DOMAIN,www.smart94392912.baby
-DOMAIN,www.smartadserver.com
 DOMAIN,www.smartavens.com
 DOMAIN,www.smartbeginnings.info
 DOMAIN,www.smartbio.me
@@ -456120,7 +456077,6 @@ DOMAIN,yasndikk.shop
 DOMAIN,yasrr.com
 DOMAIN,yassim.ext826180.pro
 DOMAIN,yassintap.hub-948161.pro
-DOMAIN,yast.rutube.ru
 DOMAIN,yastadxpukcovs.com
 DOMAIN,yastrw.com
 DOMAIN,yasyaduvbunket.site
@@ -457231,7 +457187,6 @@ DOMAIN,ylkujegjynqvn.online
 DOMAIN,yllaorder.com
 DOMAIN,yllaris.com
 DOMAIN,ylligknjyhnpr.space
-DOMAIN,yllix.com
 DOMAIN,yllld.com
 DOMAIN,yllvye.com
 DOMAIN,yllyg.com
@@ -460167,7 +460122,6 @@ DOMAIN,zecsriilqkdei.site
 DOMAIN,zeddyofficial.com
 DOMAIN,zedessoulrwfb.website
 DOMAIN,zedmunkpdtjkf.website
-DOMAIN,zedo.com
 DOMAIN,zedoriph.top
 DOMAIN,zedplays.com
 DOMAIN,zedrvista.sbs
