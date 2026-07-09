@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-10 00:36:30
+# Generated on: 2026-07-10 06:08:32
 # Generated AdBlock rules
-# Total entries: 467768
+# Total entries: 467767
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -220118,7 +220118,6 @@ DOMAIN,mail-ad1.hisys.hinet.net
 DOMAIN,mail-ad2.hisys.hinet.net
 DOMAIN,mail-ad3.hisys.hinet.net
 DOMAIN,mail-ad4.hisys.hinet.net
-DOMAIN,mail-ads.google.com
 DOMAIN,mail-ameli.fr
 DOMAIN,mail-antai.fr
 DOMAIN,mail-auth.netlify.app
