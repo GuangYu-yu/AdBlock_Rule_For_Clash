@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-10 09:18:31
+# Generated on: 2026-07-10 13:13:28
 # Generated AdBlock rules
-# Total entries: 467767
+# Total entries: 467769
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -10226,6 +10226,7 @@ DOMAIN,a.sj.se
 DOMAIN,a.slunecnice.cz
 DOMAIN,a.smetrics.sovereign.com
 DOMAIN,a.sodra.com
+DOMAIN,a.spolecznosci.net
 DOMAIN,a.spv.se
 DOMAIN,a.ss-serverside.space
 DOMAIN,a.ss34.on9mail.com
@@ -61018,6 +61019,7 @@ DOMAIN,awemwh.com
 DOMAIN,awentw.com
 DOMAIN,aweproto.com
 DOMAIN,aweprotostatic.com
+DOMAIN,aweprt.com
 DOMAIN,awepsi.com
 DOMAIN,awepsljan.com
 DOMAIN,awept.com
