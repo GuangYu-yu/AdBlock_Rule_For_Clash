@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-13 07:13:58
+# Generated on: 2026-07-13 12:06:44
 # Generated AdBlock rules
-# Total entries: 467769
+# Total entries: 467768
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -77326,7 +77326,6 @@ DOMAIN,buypuppies.ca
 DOMAIN,buyrava.com
 DOMAIN,buyrovo.shop
 DOMAIN,buysellads.com
-DOMAIN,buysellads.net
 DOMAIN,buyshub.shop
 DOMAIN,buyt.in
 DOMAIN,buythisdomain.net
