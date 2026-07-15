@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-16 00:08:57
+# Generated on: 2026-07-16 03:24:58
 # Generated AdBlock rules
-# Total entries: 473438
+# Total entries: 473437
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -369868,7 +369868,6 @@ DOMAIN,techiteration.com
 DOMAIN,techiwant.com
 DOMAIN,techixir.com
 DOMAIN,techjyvibe.shop
-DOMAIN,techlab-cdn.com
 DOMAIN,techlicious.pro
 DOMAIN,techliteracy.us
 DOMAIN,techlivegen.com
