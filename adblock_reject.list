@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-19 08:14:42
+# Generated on: 2026-07-19 16:59:42
 # Generated AdBlock rules
-# Total entries: 483437
+# Total entries: 483436
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -483403,7 +483403,6 @@ DOMAIN,zzlctetvwshhm.online
 DOMAIN,zzlgf.justpaddles.com
 DOMAIN,zzlhsj.com
 DOMAIN,zzlles.com
-DOMAIN,zzlocalsquared.com
 DOMAIN,zzlpx.com
 DOMAIN,zzmah.ranchjacksonhole.com
 DOMAIN,zzmqptxatuosm.space
