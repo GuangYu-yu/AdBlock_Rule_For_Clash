@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-20 15:38:49
+# Generated on: 2026-07-20 18:31:17
 # Generated AdBlock rules
-# Total entries: 483437
+# Total entries: 483436
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -267464,7 +267464,6 @@ DOMAIN,onmypc.net
 DOMAIN,onmyvideodisney.com
 DOMAIN,onn-off.fr
 DOMAIN,onnaone.com
-DOMAIN,onne.link
 DOMAIN,onneat.online
 DOMAIN,onnet.today
 DOMAIN,onnideutschland.com
