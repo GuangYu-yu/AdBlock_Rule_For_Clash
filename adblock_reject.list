@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-21 23:20:45
+# Generated on: 2026-07-22 00:54:20
 # Generated AdBlock rules
-# Total entries: 483450
+# Total entries: 483436
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -19042,7 +19042,6 @@ DOMAIN,ad.tv2.no
 DOMAIN,ad.tw.doubleclick.net
 DOMAIN,ad.u-car.com.tw
 DOMAIN,ad.uk.doubleclick.net
-DOMAIN,ad.unimhk.com
 DOMAIN,ad.union.api
 DOMAIN,ad.unique1static.jp
 DOMAIN,ad.universcine.com
@@ -24146,7 +24145,6 @@ DOMAIN,adsin.zhangyoubao.com
 DOMAIN,adsinimages.com
 DOMAIN,adsino24.com
 DOMAIN,adsinsightt.digital
-DOMAIN,adsinstant.com
 DOMAIN,adsinter1.addealsnetwork.com
 DOMAIN,adsinteractive-794b.kxcdn.com
 DOMAIN,adsinteractive.com
@@ -84991,7 +84989,6 @@ DOMAIN,cb-stage.com
 DOMAIN,cb-votre.fr
 DOMAIN,cb.alimama.cn
 DOMAIN,cb.amazingcounters.com
-DOMAIN,cb.baidu.com
 DOMAIN,cb.l.qq.com
 DOMAIN,cb.mdnhinc.com
 DOMAIN,cb.mopub.com
@@ -115309,7 +115306,6 @@ DOMAIN,delivery.vda.viettel.vn
 DOMAIN,delivery.vtc.vn
 DOMAIN,delivery.vtcnew.com.vn
 DOMAIN,delivery.vtcnews.vn
-DOMAIN,delivery.wasu.cn
 DOMAIN,delivery.yomedia.vn
 DOMAIN,delivery.yourfuckbook.com
 DOMAIN,delivery03.ad4game.com
@@ -116932,7 +116928,6 @@ DOMAIN,df.huya.com
 DOMAIN,df.mic.mob.com
 DOMAIN,df.mob.com
 DOMAIN,df.pmweb.com.br
-DOMAIN,df.tanx.com
 DOMAIN,df035428b5.d8ff1e73bd.com
 DOMAIN,df09rp0cm6rp6.cloudfront.net
 DOMAIN,df0pmigc8xs70.cloudfront.net
@@ -153329,7 +153324,6 @@ DOMAIN,g.theonlinelightingstore.co.uk
 DOMAIN,g.thinktarget.com
 DOMAIN,g.trustedhomewares.com.au
 DOMAIN,g.vlion.cn
-DOMAIN,g.wan.2345.com
 DOMAIN,g.websponsors.com
 DOMAIN,g.westkendalltoyota.com
 DOMAIN,g.whatsapp.net.iberostar.com
@@ -194665,7 +194659,6 @@ DOMAIN,jidoshashurinotecho.info
 DOMAIN,jiebm.us.davines.com
 DOMAIN,jiegangmi.shop
 DOMAIN,jiehsiazrrkql.site
-DOMAIN,jifen.2345.com
 DOMAIN,jifendownload.2345.cn
 DOMAIN,jifflebreasts.com
 DOMAIN,jifflenow.actonservice.com
@@ -196970,7 +196963,6 @@ DOMAIN,juicingoasis.com
 DOMAIN,juicy-couture.pl
 DOMAIN,juicy-news.blogspot.us.intellitxt.com
 DOMAIN,juicy-pubg.com
-DOMAIN,juicyads.com
 DOMAIN,juicyads.me
 DOMAIN,juicyads.rocks
 DOMAIN,juicybits.info
@@ -267828,7 +267820,6 @@ DOMAIN,opdridriselmas.com
 DOMAIN,opdrkeqdvzgoi.website
 DOMAIN,opdrmetinyilmaz.com
 DOMAIN,opdvzscgsotag.site
-DOMAIN,ope.tanx.com
 DOMAIN,opeahmnyx.com
 DOMAIN,opealleven.com
 DOMAIN,opeanresultanc.com
@@ -271626,7 +271617,6 @@ DOMAIN,p.smartertravel.com
 DOMAIN,p.spotidownloader.com
 DOMAIN,p.ssp.qq.com
 DOMAIN,p.statp.com
-DOMAIN,p.tanx.com
 DOMAIN,p.teads.tv
 DOMAIN,p.tencentmind.com
 DOMAIN,p.tizonaa.com
@@ -412940,7 +412930,6 @@ DOMAIN,wammusseize.com
 DOMAIN,wamojgotlra.in
 DOMAIN,wampcihassi.in
 DOMAIN,wampisheppdbrindle.info
-DOMAIN,wan.2345.com
 DOMAIN,wan.kbdmp.com
 DOMAIN,wan.youku.com
 DOMAIN,wanaado.fr
@@ -421643,7 +421632,6 @@ DOMAIN,www.230129h8h57.xyz
 DOMAIN,www.2309h034h843.qpon
 DOMAIN,www.2319qvk.hair
 DOMAIN,www.2345-sandko-42325.com
-DOMAIN,www.2345.com
 DOMAIN,www.2345dq.com
 DOMAIN,www.234890h945.xyz
 DOMAIN,www.2381mqn.ink
@@ -477231,7 +477219,6 @@ DOMAIN,yktcrkwxeutyvd.com
 DOMAIN,yktd.ads.cn.miaozhen.com
 DOMAIN,yktd.m.cn.miaozhen.com
 DOMAIN,yktfx.aariclothing.com
-DOMAIN,yktj.yzz.cn
 DOMAIN,yktxrceoyoxn.com
 DOMAIN,ykubfwztpzpvg.website
 DOMAIN,ykuttw.beidelli.com
@@ -481106,7 +481093,6 @@ DOMAIN,zhuotnqoongmt.club
 DOMAIN,zhupdf.inurishop.com
 DOMAIN,zhuqellv.com
 DOMAIN,zhurifit.com
-DOMAIN,zhushou.2345.com
 DOMAIN,zhuyuanp.shop
 DOMAIN,zhwrtqmppjwps.com
 DOMAIN,zhwzsym.top
