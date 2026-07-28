@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-29 00:23:48
+# Generated on: 2026-07-29 05:17:13
 # Generated AdBlock rules
-# Total entries: 502261
+# Total entries: 502262
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -244512,6 +244512,7 @@ DOMAIN,monservice-livraison.fr
 DOMAIN,monservicelivreo.com
 DOMAIN,monservicepaypal.fr
 DOMAIN,monservicepublique.fr
+DOMAIN,monsetting.toutiao.com
 DOMAIN,monshowroom.eulerian.net
 DOMAIN,monsieur-lapin.fr
 DOMAIN,monsieurlapin-casino.fr
