@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-29 18:17:56
+# Generated on: 2026-07-29 22:58:07
 # Generated AdBlock rules
-# Total entries: 502262
+# Total entries: 502263
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -80383,6 +80383,7 @@ DOMAIN,bvryckykikvhh.website
 DOMAIN,bvsuswihg.com
 DOMAIN,bvtfy.miuragolf.com
 DOMAIN,bvtmvalgidefh.store
+DOMAIN,bvtpk.com
 DOMAIN,bvtuqhrsecfdm.com
 DOMAIN,bvtwtwp.xyz
 DOMAIN,bvubje.leboncoin.fr
