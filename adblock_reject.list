@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-07-30 23:28:12
+# Generated on: 2026-07-31 01:08:54
 # Generated AdBlock rules
-# Total entries: 502263
+# Total entries: 502262
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -18316,7 +18316,6 @@ DOMAIN,ad-configurator.6cloud.fr
 DOMAIN,ad-count.adwo.com
 DOMAIN,ad-count.jp
 DOMAIN,ad-creative.projectcarmen.com
-DOMAIN,ad-creative.pstatic.net
 DOMAIN,ad-creatives-public.commondatastorage.googleapis.com
 DOMAIN,ad-cupid.com
 DOMAIN,ad-dev.globalnoticias.pt
