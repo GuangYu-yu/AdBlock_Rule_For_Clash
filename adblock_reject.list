@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-01 21:46:21
+# Generated on: 2026-08-01 23:08:48
 # Generated AdBlock rules
-# Total entries: 477529
+# Total entries: 477528
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -211950,7 +211950,6 @@ DOMAIN,link.mark.app
 DOMAIN,link.marketing.bleacherreport.com
 DOMAIN,link.mbna.co.uk
 DOMAIN,link.mbtihell.com
-DOMAIN,link.me
 DOMAIN,link.medibuddy.app
 DOMAIN,link.melissawoodhealth.com
 DOMAIN,link.metaadserving.com
