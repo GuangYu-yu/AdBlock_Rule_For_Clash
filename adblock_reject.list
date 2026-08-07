@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-07 13:24:05
+# Generated on: 2026-08-07 17:29:59
 # Generated AdBlock rules
-# Total entries: 478945
+# Total entries: 478944
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -134583,7 +134583,6 @@ DOMAIN,enragedeng.cfd
 DOMAIN,enrageobesejan.com
 DOMAIN,enrageperplexparable.com
 DOMAIN,enragesumbonicusw.cyou
-DOMAIN,enraptureminims.com
 DOMAIN,enrdis.fr
 DOMAIN,enregistrement-ameli.fr
 DOMAIN,enregistrement-bnpparibas.fr
