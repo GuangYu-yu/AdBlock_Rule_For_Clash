@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-16 01:00:00
+# Generated on: 2026-08-16 03:05:24
 # Generated AdBlock rules
-# Total entries: 471025
+# Total entries: 471026
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -138387,6 +138387,7 @@ DOMAIN,ezobam.jdsports.nl
 DOMAIN,ezoeyd.planetahuerto.pt
 DOMAIN,ezofv.gesundheit-der-frau.com
 DOMAIN,ezoicanalytics.com
+DOMAIN,ezojs.com
 DOMAIN,ezoliniawrozby.com
 DOMAIN,ezoterikmarket.com
 DOMAIN,ezpagos.com
