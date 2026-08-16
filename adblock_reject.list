@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-16 16:00:57
+# Generated on: 2026-08-16 16:42:45
 # Generated AdBlock rules
-# Total entries: 472187
+# Total entries: 472186
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -87660,7 +87660,6 @@ DOMAIN,cf.overblog.com
 DOMAIN,cf.wolfclicktrack.com
 DOMAIN,cf.xad.com
 DOMAIN,cf04.kanade-ad.net
-DOMAIN,cf2.me
 DOMAIN,cf222.art
 DOMAIN,cf67ahu-mkooh.com
 DOMAIN,cf686.site
