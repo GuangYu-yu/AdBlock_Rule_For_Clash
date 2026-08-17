@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-17 23:11:30
+# Generated on: 2026-08-18 01:50:00
 # Generated AdBlock rules
-# Total entries: 472202
+# Total entries: 472186
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -9698,7 +9698,6 @@ DOMAIN,a.apkeditor.io
 DOMAIN,a.apkpures.xyz
 DOMAIN,a.appbaqend.com
 DOMAIN,a.appjiagu.com
-DOMAIN,a.applovin.com
 DOMAIN,a.applvn.com
 DOMAIN,a.aramb.site
 DOMAIN,a.arbadah.com
@@ -18034,7 +18033,6 @@ DOMAIN,ad.24h.com.vn
 DOMAIN,ad.320320.net
 DOMAIN,ad.360in.com
 DOMAIN,ad.360yield-basic.com
-DOMAIN,ad.360yield.com
 DOMAIN,ad.363.in
 DOMAIN,ad.3dnews.ru
 DOMAIN,ad.3dpop.kr
@@ -19720,7 +19718,6 @@ DOMAIN,addshoppers.com
 DOMAIN,addstock.co.uk
 DOMAIN,addthief.com
 DOMAIN,addthis.fr
-DOMAIN,addthiscdn.com
 DOMAIN,addthisedge.com
 DOMAIN,addtop.trangvangvietnam.com
 DOMAIN,addugavvol.cyou
@@ -21279,7 +21276,6 @@ DOMAIN,ads-img-al.xhscdn.com
 DOMAIN,ads-img-bak.xhscdn.com
 DOMAIN,ads-img.mozilla.org
 DOMAIN,ads-insght.digital
-DOMAIN,ads-interfaces.sc-cdn.net
 DOMAIN,ads-jp.tiktok.com
 DOMAIN,ads-kesselhaus.com
 DOMAIN,ads-lb.serving-sys.cn
@@ -28432,7 +28428,6 @@ DOMAIN,aj1070.online
 DOMAIN,aj1432.online
 DOMAIN,aj1559.online
 DOMAIN,aj1716.online
-DOMAIN,aj1907.online
 DOMAIN,aj1913.online
 DOMAIN,aj1985.online
 DOMAIN,aj2031.online
@@ -65187,7 +65182,6 @@ DOMAIN,bc-ssb-iad.springserve.com
 DOMAIN,bc.5.p2l.info
 DOMAIN,bc.ad.daum.net
 DOMAIN,bc.coupons.com
-DOMAIN,bc.marfeel.com
 DOMAIN,bc.nhk.jp
 DOMAIN,bc.qunar.com
 DOMAIN,bc.semwerkt.nl
@@ -75080,7 +75074,6 @@ DOMAIN,braynstorm.pro
 DOMAIN,brayova.site
 DOMAIN,brayspark.sbs
 DOMAIN,braytrack.site
-DOMAIN,braze.com
 DOMAIN,braze.eu
 DOMAIN,brazenfarm.com
 DOMAIN,brazil-conservationefforts.com
@@ -78568,7 +78561,6 @@ DOMAIN,button.clickability.com
 DOMAIN,buttondeeprootedbedside.com
 DOMAIN,buttonjloop.esplanadventure.com
 DOMAIN,buttonladybug.com
-DOMAIN,buttons-config.sharethis.com
 DOMAIN,buttons-for-website.com
 DOMAIN,buttons-for-your-website.com
 DOMAIN,buttons.googlesyndication.com
@@ -100245,7 +100237,6 @@ DOMAIN,counooterplot.info
 DOMAIN,counselheal.us.intellitxt.com
 DOMAIN,counselmx.com
 DOMAIN,counsgray.review27.com
-DOMAIN,count-server.sharethis.com
 DOMAIN,count.9yx.com
 DOMAIN,count.advanseads.com
 DOMAIN,count.all.biz
@@ -105729,7 +105720,6 @@ DOMAIN,d-app.progressive.com
 DOMAIN,d-artmixture.com
 DOMAIN,d-bi.fr
 DOMAIN,d-bring.cfd
-DOMAIN,d-cache.microad.jp
 DOMAIN,d-cache.microadinc.com
 DOMAIN,d-can.youtheory.com
 DOMAIN,d-click.uhmailsrvc3.com
@@ -105791,7 +105781,6 @@ DOMAIN,d.amsterdamsvloerencentrum.nl
 DOMAIN,d.analyticsmania.com
 DOMAIN,d.anthill.vn
 DOMAIN,d.ants.vn
-DOMAIN,d.applovin.com
 DOMAIN,d.applvn.com
 DOMAIN,d.appsdt.com
 DOMAIN,d.arcadearena.co.uk
@@ -152275,8 +152264,8 @@ DOMAIN,fvgbhn.com
 DOMAIN,fvgfohvfudnje.sbs
 DOMAIN,fvgwjqiidtzya.site
 DOMAIN,fvibcxczgkhmd.website
-DOMAIN,Fvid.atm.youku.com
 DOMAIN,fvid.atm.youku.com
+DOMAIN,Fvid.atm.youku.com
 DOMAIN,fvideoccaa.shop
 DOMAIN,fvjhdijvqirab.site
 DOMAIN,fvjjhpxpeaflj.space
@@ -181313,7 +181302,6 @@ DOMAIN,images-aud.freshmeat.net
 DOMAIN,images-aud.slashdot.org
 DOMAIN,images-aud.sourceforge.net
 DOMAIN,images-cdn.azoogleads.com
-DOMAIN,images-dl.taboola.com
 DOMAIN,images-pw.secureserver.net
 DOMAIN,images-static.vrvm.com
 DOMAIN,images.3lift.com
@@ -221821,7 +221809,6 @@ DOMAIN,m.acmgloballab.com
 DOMAIN,m.ad.zhangyue.com
 DOMAIN,m.adbridge.de
 DOMAIN,m.addthis.com
-DOMAIN,m.addthisedge.com
 DOMAIN,m.adhdonline.com
 DOMAIN,m.admedia.com
 DOMAIN,m.admob.com
@@ -221969,7 +221956,6 @@ DOMAIN,m.salihatfood.com
 DOMAIN,m.saltycloud.com
 DOMAIN,m.sancdn.net
 DOMAIN,m.servebom.com
-DOMAIN,m.servedby-buysellads.com
 DOMAIN,m.shenshiads.com
 DOMAIN,m.shop.bijbelgenootschap.nl
 DOMAIN,m.shoppre.com
@@ -281272,7 +281258,6 @@ DOMAIN,platerforme-chronopost.fr
 DOMAIN,platesskull.com
 DOMAIN,platfget.titledefend.com
 DOMAIN,platfom-desktop.wixstudio.com
-DOMAIN,platform-api.sharethis.com
 DOMAIN,platform-az.com
 DOMAIN,platform-bridgehome.wixstudio.com
 DOMAIN,platform-cdn.sharethis.com
@@ -418742,7 +418727,6 @@ DOMAIN,www.adnet.biz
 DOMAIN,www.adnet.com
 DOMAIN,www.adnet.de
 DOMAIN,www.adnetworkperformance.com
-DOMAIN,www.adnigma.com
 DOMAIN,www.adnoc-ai.live
 DOMAIN,www.adnocprofit-engine.com
 DOMAIN,www.adnordics.com
