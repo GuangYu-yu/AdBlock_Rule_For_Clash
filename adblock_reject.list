@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-20 01:59:00
+# Generated on: 2026-08-20 02:48:59
 # Generated AdBlock rules
-# Total entries: 490465
+# Total entries: 490475
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -189379,6 +189379,7 @@ DOMAIN,images.messages.seagate.com
 DOMAIN,images.mkt.acindar.com.ar
 DOMAIN,images.mkt.movida.com.br
 DOMAIN,images.mkt.nectarconsulting.com.br
+DOMAIN,images.mkt.zoominfo.com
 DOMAIN,images.mkt.zte.com.cn
 DOMAIN,images.mktg.dynabook.com
 DOMAIN,images.mktgassets.symantec.com
@@ -193099,6 +193100,7 @@ DOMAIN,info.serverlift.com
 DOMAIN,info.services.vivacom.bg
 DOMAIN,info.setpointis.com
 DOMAIN,info.sg2.com
+DOMAIN,info.sharks.com.au
 DOMAIN,info.shavve.co.il
 DOMAIN,info.sherriffhealthcaresearch.com
 DOMAIN,info.shilohnext.com
@@ -241510,6 +241512,7 @@ DOMAIN,metrics.citibank.com
 DOMAIN,metrics.citibank.com.cn
 DOMAIN,metrics.citibank.com.hk
 DOMAIN,metrics.citibank.com.my
+DOMAIN,metrics.citibank.com.ph
 DOMAIN,metrics.citibank.com.sg
 DOMAIN,metrics.citibank.com.tw
 DOMAIN,metrics.citibank.com.vn
@@ -241575,6 +241578,7 @@ DOMAIN,metrics.cort.com
 DOMAIN,metrics.cosmeticsdesign-asia.com
 DOMAIN,metrics.cosmeticsdesign-europe.com
 DOMAIN,metrics.cosmeticsdesign.com
+DOMAIN,metrics.cosmopolitan.co.uk
 DOMAIN,metrics.cosstores.com
 DOMAIN,metrics.costco.ca
 DOMAIN,metrics.costco.com
@@ -242412,6 +242416,7 @@ DOMAIN,metrics.luna.com
 DOMAIN,metrics.lunburg.com
 DOMAIN,metrics.lww.com
 DOMAIN,metrics.lycos.com
+DOMAIN,metrics.m.abbottnutrition.com
 DOMAIN,metrics.m.ambientplatform.vn
 DOMAIN,metrics.m.apartmentfinder.com
 DOMAIN,metrics.ma500.co.uk
@@ -243910,6 +243915,7 @@ DOMAIN,mg.adskeeper.co.uk
 DOMAIN,mg.dt00.net
 DOMAIN,mg.games.sina.com.cn
 DOMAIN,mg.glwxw.net
+DOMAIN,mg.info.averydennison.com
 DOMAIN,mg.maisons-begi.fr
 DOMAIN,mg.marketgid.com
 DOMAIN,mg.mgid.com
@@ -306048,7 +306054,6 @@ DOMAIN,qlitics.com
 DOMAIN,qliwncicprtay.site
 DOMAIN,qlixorpoint.com
 DOMAIN,qljbncscqxlez.online
-DOMAIN,qljiop.allabout.co.jp
 DOMAIN,qljmj.westandwillow.com
 DOMAIN,qljytcmigkfxc.website
 DOMAIN,qlkmasrw.com
@@ -324313,6 +324318,7 @@ DOMAIN,sadobe.filmstruck.com
 DOMAIN,sadobe.homecenter.com.co
 DOMAIN,sadobe.mercuryinsurance.com
 DOMAIN,sadobe.sodimac.com.ar
+DOMAIN,sadobe.sodimac.com.pe
 DOMAIN,sadobeanalytics.geico.com
 DOMAIN,sadobeanalytics.medline.com
 DOMAIN,sadobemarketing.boden.co.uk
@@ -375801,6 +375807,7 @@ DOMAIN,stats.searchftps.org
 DOMAIN,stats.searchsight.com
 DOMAIN,stats.seat-auto.pl
 DOMAIN,stats.seat.be
+DOMAIN,stats.seat.com.tr
 DOMAIN,stats.seat.de
 DOMAIN,stats.seat.es
 DOMAIN,stats.seat.fr
@@ -375983,6 +375990,7 @@ DOMAIN,stats.thomasvitale.com
 DOMAIN,stats.thoughtcatalog.com
 DOMAIN,stats.tiebreaker.com
 DOMAIN,stats.tiffany.ca
+DOMAIN,stats.tiffany.co.jp
 DOMAIN,stats.tiffany.co.uk
 DOMAIN,stats.tiffany.com
 DOMAIN,stats.tiffany.com.ru
@@ -382199,6 +382207,7 @@ DOMAIN,sw88.disney.co.jp
 DOMAIN,sw88.disney.co.uk
 DOMAIN,sw88.disney.co.za
 DOMAIN,sw88.disney.com.au
+DOMAIN,sw88.disney.com.tr
 DOMAIN,sw88.disney.cz
 DOMAIN,sw88.disney.de
 DOMAIN,sw88.disney.dk
@@ -427591,6 +427600,7 @@ DOMAIN,vvbox.cz
 DOMAIN,vvcdh.com.cn
 DOMAIN,vvcdh.net.cn
 DOMAIN,vvcszpzpuceps.space
+DOMAIN,vvcufx.colombo.com.br
 DOMAIN,vvdnp.natpat.com
 DOMAIN,vvdrhe.win
 DOMAIN,vvebmail-ver1fication1.edgeone.app
