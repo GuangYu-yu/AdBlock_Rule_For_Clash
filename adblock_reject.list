@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-20 16:02:13
+# Generated on: 2026-08-20 17:01:40
 # Generated AdBlock rules
-# Total entries: 491825
+# Total entries: 491824
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -113863,7 +113863,6 @@ DOMAIN,data.email.nab.com.au
 DOMAIN,data.email.nabtrade.com.au
 DOMAIN,data.email.ondemand.sbs.com.au
 DOMAIN,data.email.partycity.com
-DOMAIN,data.email.philips-hue.com
 DOMAIN,data.email.pilotcompany.com
 DOMAIN,data.email.podcast.adobe.com
 DOMAIN,data.email.prada.com
