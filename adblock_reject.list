@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-22 00:43:20
+# Generated on: 2026-08-22 03:03:46
 # Generated AdBlock rules
-# Total entries: 490010
+# Total entries: 490011
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -229167,6 +229167,7 @@ DOMAIN,lpserver.maxfocos.com.br
 DOMAIN,lpsg.fr
 DOMAIN,lpstape.safebras.com.br
 DOMAIN,lpsuu.coastpay.com
+DOMAIN,lptag.liveperson.net
 DOMAIN,lptamura.amortecedorestamura.com
 DOMAIN,lptest.dg.test.ajo.adobe.com
 DOMAIN,lptest.email-mobiledx.cjm.adobe.com
