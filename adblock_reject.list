@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-24 07:30:26
+# Generated on: 2026-08-24 09:50:44
 # Generated AdBlock rules
-# Total entries: 486087
+# Total entries: 486088
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -231037,6 +231037,7 @@ DOMAIN,lw.b.inhaabit.com
 DOMAIN,lw.musictarget.com
 DOMAIN,lw.w1rhna.cfd
 DOMAIN,lw9.ks6gdt.qpon
+DOMAIN,lwadm.com
 DOMAIN,lwahyysblqbez.site
 DOMAIN,lwaitk.endo-excelclinic.com
 DOMAIN,lwashh.hessischer-jobanzeiger.de
