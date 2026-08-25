@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-25 23:10:38
+# Generated on: 2026-08-26 00:05:30
 # Generated AdBlock rules
-# Total entries: 484589
+# Total entries: 484588
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -23098,7 +23098,6 @@ DOMAIN,adserver.onwisconsin.com
 DOMAIN,adserver.otthonom.hu
 DOMAIN,adserver.outpersonals.com
 DOMAIN,adserver.pampa.com.br
-DOMAIN,adserver.pandora.com
 DOMAIN,adserver.passion.com
 DOMAIN,adserver.phatmax.net
 DOMAIN,adserver.phillyburbs.com
