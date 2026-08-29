@@ -3,7 +3,7 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-08-29 15:49:28
+# Generated on: 2026-08-29 21:48:54
 # Generated AdBlock rules
 # Total entries: 484483
 
@@ -9492,7 +9492,6 @@ DOMAIN,a.pacvue.com
 DOMAIN,a.palenonperformance.com
 DOMAIN,a.panaceo.com
 DOMAIN,a.parfumsclub.de
-DOMAIN,a.partner-versicherung.de
 DOMAIN,a.pchat.com
 DOMAIN,a.pcpro.co.uk
 DOMAIN,a.perfumehousedhaka.com
@@ -144222,6 +144221,7 @@ DOMAIN,faobdrpumevmc.website
 DOMAIN,faoda4xd2.com
 DOMAIN,faokwl.sklepogrodniczy.pl
 DOMAIN,faotcry54coil.com
+DOMAIN,fapcat.com
 DOMAIN,fapello.xyz
 DOMAIN,fapepeshnele.website
 DOMAIN,faphomtotapt.com
