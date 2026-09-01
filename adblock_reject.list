@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-09-01 13:41:47
+# Generated on: 2026-09-01 23:12:25
 # Generated AdBlock rules
-# Total entries: 485544
+# Total entries: 485543
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -161820,7 +161820,6 @@ DOMAIN,genial-objects-594130.framer.app
 DOMAIN,genial-universe-605034.framer.app
 DOMAIN,genicflegr.cyou
 DOMAIN,genieavvin.rest
-DOMAIN,geniee.jp
 DOMAIN,genieedmp.com
 DOMAIN,genieessp.com
 DOMAIN,genieessp.jp
