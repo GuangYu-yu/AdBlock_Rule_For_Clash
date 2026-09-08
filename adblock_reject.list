@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-09-08 16:59:03
+# Generated on: 2026-09-08 21:31:14
 # Generated AdBlock rules
-# Total entries: 483145
+# Total entries: 483144
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -57482,7 +57482,6 @@ DOMAIN,assets2.vero.co.nz
 DOMAIN,assets2.vero.com.au
 DOMAIN,assetsbackupledger.site
 DOMAIN,assetscdn.jivox.com
-DOMAIN,assetsconfigcdn.org
 DOMAIN,assetsver.digital
 DOMAIN,assetvaluegate-ai.fyi
 DOMAIN,assetvaluegateengine.com
