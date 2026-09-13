@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-09-14 03:19:51
+# Generated on: 2026-09-14 05:30:52
 # Generated AdBlock rules
-# Total entries: 484637
+# Total entries: 484638
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -399910,6 +399910,7 @@ DOMAIN,tr.orcamento-online.pt
 DOMAIN,tr.orcamentos-companeo.pt
 DOMAIN,tr.ostermann.eu
 DOMAIN,tr.oxatis.devisdirect.com
+DOMAIN,tr.p.360.cn
 DOMAIN,tr.panels-mediametrie.fr
 DOMAIN,tr.parcel2go.com
 DOMAIN,tr.part.offres-cartegie.fr
