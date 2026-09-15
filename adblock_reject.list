@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-09-16 01:18:14
+# Generated on: 2026-09-16 04:19:29
 # Generated AdBlock rules
-# Total entries: 483428
+# Total entries: 483427
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -357215,7 +357215,6 @@ DOMAIN,speedyrhino.co
 DOMAIN,speedyshare.com
 DOMAIN,speedysteaks.com
 DOMAIN,speedywayy.info
-DOMAIN,speee-ad.jp
 DOMAIN,speeledabantespauses.qpon
 DOMAIN,speeltuintalud.nl
 DOMAIN,speersgeigerrhebok.cfd
