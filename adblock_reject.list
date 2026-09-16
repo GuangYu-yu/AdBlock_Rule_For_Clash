@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-09-16 14:46:48
+# Generated on: 2026-09-16 20:33:58
 # Generated AdBlock rules
-# Total entries: 486604
+# Total entries: 486602
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -115087,7 +115087,6 @@ DOMAIN,data.titan39-ns.cjmmse.com
 DOMAIN,data.titancert.test.ajo.adobe.com
 DOMAIN,data.titancert1.test.ajo.adobe.com
 DOMAIN,data.tk4express.com.br
-DOMAIN,data.tm-awx.com
 DOMAIN,data.tmail.northeast.aaa.com
 DOMAIN,data.todoalicante.es
 DOMAIN,data.tomferry.com
@@ -136184,7 +136183,6 @@ DOMAIN,envoyer-ameli.fr
 DOMAIN,envoyercourrier.fr
 DOMAIN,envoymusicianpaid.com
 DOMAIN,envoyrhythm.bioamaz.com
-DOMAIN,envs.sh
 DOMAIN,envttisioned.info
 DOMAIN,envyjailbreak.com
 DOMAIN,enwawvap.com
