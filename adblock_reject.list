@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-09-21 13:30:14
+# Generated on: 2026-09-21 19:07:35
 # Generated AdBlock rules
-# Total entries: 482710
+# Total entries: 482708
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -23512,7 +23512,6 @@ DOMAIN,adtimabox.brand.zing.vn
 DOMAIN,adtimaserver.vn
 DOMAIN,adtime.ru
 DOMAIN,adtingest.com
-DOMAIN,adtival.network
 DOMAIN,adtive.com
 DOMAIN,adtlgc.com
 DOMAIN,adtmonetize.com
@@ -324069,7 +324068,6 @@ DOMAIN,safeinvestmentsgovernmentprogram.com
 DOMAIN,safeledger.fr
 DOMAIN,safelektronik2004.rs
 DOMAIN,safelink.lamacchiairealty.com
-DOMAIN,safelinkearn.com
 DOMAIN,safelinktracker.com
 DOMAIN,safelistextreme.com
 DOMAIN,safemediaglobal.com
