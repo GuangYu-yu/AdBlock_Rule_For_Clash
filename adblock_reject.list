@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-09-28 15:05:04
+# Generated on: 2026-09-28 23:39:36
 # Generated AdBlock rules
-# Total entries: 483448
+# Total entries: 483447
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -79367,7 +79367,6 @@ DOMAIN,bvnnxhmypzrpbe.com
 DOMAIN,bvoer.com
 DOMAIN,bvondaruven-platform.org
 DOMAIN,bvqfh.skinesa.com
-DOMAIN,bvr.ast.snva.jp
 DOMAIN,bvr.oralsinboavistaroraima.com.br
 DOMAIN,bvr.snva.jp
 DOMAIN,bvraciedl.com
