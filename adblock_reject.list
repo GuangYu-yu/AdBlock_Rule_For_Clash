@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-10-01 14:34:28
+# Generated on: 2026-10-01 21:55:54
 # Generated AdBlock rules
-# Total entries: 479541
+# Total entries: 479540
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -76547,7 +76547,6 @@ DOMAIN,browser-fp.production.linktr.ee
 DOMAIN,browser-home.wixstudio.com
 DOMAIN,browser-http-intake.logs.datadoghq.com
 DOMAIN,browser-http-intake.logs.datadoghq.eu
-DOMAIN,browser-intake-datadoghq.eu
 DOMAIN,browser-live.wixstudio.com
 DOMAIN,browser-metamaskcdn.wixstudio.com
 DOMAIN,browser-metmask.wixstudio.com
