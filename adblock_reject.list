@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-10-12 02:47:55
+# Generated on: 2026-10-12 06:47:39
 # Generated AdBlock rules
-# Total entries: 476452
+# Total entries: 476453
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -279652,6 +279652,7 @@ DOMAIN,partner.naturinka.cz
 DOMAIN,partner.ne-io.com
 DOMAIN,partner.nejlepsi-darecky.cz
 DOMAIN,partner.net.idealo-partner.com
+DOMAIN,partner.net.performance360.de
 DOMAIN,partner.neviditelnepradlo.cz
 DOMAIN,partner.nextprobio.cz
 DOMAIN,partner.nextwood.cz
