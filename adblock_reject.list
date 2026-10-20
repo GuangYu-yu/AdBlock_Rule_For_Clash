@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-10-20 12:37:08
+# Generated on: 2026-10-20 22:31:38
 # Generated AdBlock rules
-# Total entries: 496228
+# Total entries: 496227
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -63510,7 +63510,6 @@ DOMAIN,b-palatine.fr
 DOMAIN,b-populaire-mediterannee.fr
 DOMAIN,b-post-be.fr
 DOMAIN,b-s.tercept.com
-DOMAIN,b-short.link
 DOMAIN,b-sing.com
 DOMAIN,b-static.bet-links.com
 DOMAIN,b-uat.criteo.com
