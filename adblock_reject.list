@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-10-24 14:01:46
+# Generated on: 2026-10-24 19:18:56
 # Generated AdBlock rules
-# Total entries: 500566
+# Total entries: 500564
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -97491,7 +97491,6 @@ DOMAIN,cloudmetrics.xenforo.com
 DOMAIN,cloudmich-a7968.firebaseapp.com
 DOMAIN,cloudmich-a7968.web.app
 DOMAIN,cloudmobi.net
-DOMAIN,cloudnaery.net
 DOMAIN,cloudninefresh.com
 DOMAIN,cloudnode-whatsapp.com
 DOMAIN,cloudntucfairpricecooperativeltdusa.subzenkzro.vu
@@ -298479,7 +298478,6 @@ DOMAIN,pexa-exec878656645464564756757656456465.web.app
 DOMAIN,pexano.online
 DOMAIN,pexcsvjiecyoi.site
 DOMAIN,pexdori.shop
-DOMAIN,pexelss.net
 DOMAIN,pexi.nl
 DOMAIN,pexkr.comfortykive.xyz
 DOMAIN,pexlyunero.info
