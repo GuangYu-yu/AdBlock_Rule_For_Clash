@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-11-02 14:50:57
+# Generated on: 2026-11-03 00:59:28
 # Generated AdBlock rules
-# Total entries: 492999
+# Total entries: 492996
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -23116,7 +23116,6 @@ DOMAIN,adsbigo.com
 DOMAIN,adsbingo.com
 DOMAIN,adsblockersentinel.info
 DOMAIN,adsbookie.com
-DOMAIN,adsboosters.xyz
 DOMAIN,adsbox.detik.com
 DOMAIN,adsbro.com
 DOMAIN,adsbtrack.com
@@ -114440,7 +114439,6 @@ DOMAIN,data.customer.ampbanking.com.au
 DOMAIN,data.customer.pilotcompany.com
 DOMAIN,data.customermail.bioplanet.be
 DOMAIN,data.customermail.collectandgo.be
-DOMAIN,data.customermail.colruyt.be
 DOMAIN,data.customermail.colruyt.lu
 DOMAIN,data.customermail.mijnextra.be
 DOMAIN,data.customermail.mijnxtra.be
@@ -285893,7 +285891,6 @@ DOMAIN,orbiyz.com
 DOMAIN,orblikegermy.cyou
 DOMAIN,orbmatchingenough.com
 DOMAIN,orbs-network.github.io
-DOMAIN,orbsdiacle.com
 DOMAIN,orbsmanx.com
 DOMAIN,orbsrv.com
 DOMAIN,orbtblox.site
