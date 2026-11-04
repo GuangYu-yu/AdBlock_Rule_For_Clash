@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-11-04 15:26:48
+# Generated on: 2026-11-04 23:46:55
 # Generated AdBlock rules
-# Total entries: 495543
+# Total entries: 495544
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -278122,6 +278122,7 @@ DOMAIN,offseven.pics
 DOMAIN,offshoreassets.com
 DOMAIN,offshorecall.net
 DOMAIN,offshorecyclone.com
+DOMAIN,offshoregeology.com
 DOMAIN,offshoregoods.com
 DOMAIN,offshorekesuma.com
 DOMAIN,offshorerbcbnk.com
