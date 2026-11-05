@@ -3,7 +3,7 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-11-05 17:40:10
+# Generated on: 2026-11-06 01:41:54
 # Generated AdBlock rules
 # Total entries: 492283
 
@@ -114430,7 +114430,6 @@ DOMAIN,data.email.pilotcompany.com
 DOMAIN,data.email.podcast.adobe.com
 DOMAIN,data.email.prada.com
 DOMAIN,data.email.pradagroup.com
-DOMAIN,data.email.premierleague.com
 DOMAIN,data.email.princess.com
 DOMAIN,data.email.q8.it
 DOMAIN,data.email.realmadrid.com
@@ -242365,6 +242364,7 @@ DOMAIN,maskasdadsoadpdoaf.site
 DOMAIN,maskedwarrior.dlcodes.com
 DOMAIN,maskedwarriordlc.sharezips.info
 DOMAIN,maskedwarriordlc.sharezips.net
+DOMAIN,masklink.org
 DOMAIN,maskmonopoly.com
 DOMAIN,maskoter.com
 DOMAIN,masky.biddingx.com
