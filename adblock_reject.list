@@ -3,9 +3,9 @@
 # Homepage: https://github.com/REIJI007/AdBlock_Rule_For_Clash
 # LICENSE1: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-GPL 3.0
 # LICENSE2: https://github.com/REIJI007/AdBlock_Rule_For_Clash/blob/main/LICENSE-CC-BY-NC-SA 4.0
-# Generated on: 2026-11-09 09:59:31
+# Generated on: 2026-11-09 17:39:41
 # Generated AdBlock rules
-# Total entries: 480822
+# Total entries: 480820
 
 DOMAIN,0-0.fr
 DOMAIN,0-02.net
@@ -126122,7 +126122,6 @@ DOMAIN,dptxqbwdwuqye.website
 DOMAIN,dpu.samsungelectronics.com
 DOMAIN,dpudph.hawooo.com
 DOMAIN,dpuhlinevz.com
-DOMAIN,dpuplet.net
 DOMAIN,dpuppers.com
 DOMAIN,dpush-api.domob.cn
 DOMAIN,dpuxtqqajzwam.store
@@ -239784,7 +239783,6 @@ DOMAIN,maskasdadsoadpdoaf.site
 DOMAIN,maskedwarrior.dlcodes.com
 DOMAIN,maskedwarriordlc.sharezips.info
 DOMAIN,maskedwarriordlc.sharezips.net
-DOMAIN,masklink.org
 DOMAIN,maskmonopoly.com
 DOMAIN,maskoter.com
 DOMAIN,masky.biddingx.com
